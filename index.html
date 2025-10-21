@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>BOOKMarket | Home Page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="headerContent">
+                    <a href="index.html" class="brand"> BOOK<span style="color: #820000; font-weight: 900;">Market</span></a>
+                    <nav>
+                        <ul id="links">
+                            <li><a href="login.html" class="loginBtn">Login</a></li>
+                            <li><a href="register.html" class="registerBtn">Sign Up</a></li>
+                        </ul>
+                        <ul id="userInfo">
+                            <li><a href="#" id="userName"></a></li>
+                            <li class="watchScreen">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+                                <div class="watchScreenItem">
+                                    <div></div>
+                                    <a href="watchScreen.html">View All Movie</a>
+                                </div>
+                            </li>
+                            <li><a href="login.html" id="logoutBtn">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="searchBar">
+            <div class="container">
+                <div class="searchBarContent">
+                    <select name="searchSelector" class="searchSelector">
+                        <option value="name">Search By Book Name</option>
+                        <option value="category">Search By Book Category</option>
+                    </select>
+                    <input type="search" placeholder="Search...">
+                    <button>Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="home">
+            <div class="container">
+                <div class="products">
+
+                </div>
+            </div>
+        </section>
+
+        
+        <script src="JS/script.js"></script>
+        <script src="JS/user.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOOKMarket | screen Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="headerContent">
+                <a href="index.html" class="brand">BOOK<span style="color: #820000; font-weight: 900;">Market</span></a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html" class="loginBtn">Login</a></li>
+                        <li><a href="register.html" class="registerBtn">Sign Up</a></li>
+                    </ul>
+                    <ul id="userInfo">
+                        <li><a href="#" id="userName"></a></li>
+                        <li class="watchScreen">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge"></span>
+                            <div class="watchScreenItem">
+                                <div></div>
+                                <a href="watchScreen.html">View All Movie</a>
+                            </div>
+                        </li>
+                        <li><a href="login.html" id="logoutBtn">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+            <div class="products">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="cartContainer">
+            <div class="cartProducts">
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="TotalPrice"></div>
+    <hr>
+
+    <section class="favouriteSection">
+        <div class="favouriteContainer">
+            <div class="favTitle">
+                <h2>Favourite Items</h2>
+                <p class="favLine"></p>
+            </div>
+            <div class="favouriteProducts">
+            </div>
+        </div>
+    </section>
+
+    <script src="JS/watchScreen.js"></script>
+    <script src="JS/user.js"></script>
+</body>
+</html>
